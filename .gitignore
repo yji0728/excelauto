@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# Test Excel files (except examples)
+*.xlsx
+*.xls
+!example*.xlsx
+!template*.xlsx
+
+# Build artifacts
+dist/
+build/
+*.min.js.map
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
